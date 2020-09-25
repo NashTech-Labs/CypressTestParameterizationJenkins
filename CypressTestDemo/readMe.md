@@ -45,7 +45,7 @@ sudo apt-get install jenkins
 * After selecting the freestyle project we will click on the OK button, this action will redirect us to another window where we need to configure our project.
 * In the next step, we need to click on the advanced button and provide the path of our workspace directory and a display name to our build.
 * Now we will click on add build step and select the execute shell option from the drop-down menu.
-* After selecting the build step, we can write our script in execute shell’s command section.
+* After selecting the build step, we can write our script in execute shell’s command section
 * Note: here $script will denote the selected parameter before execution.
 * After adding our script we will click on the save button to save the latest changes. This will create a parameterized Jenkins build as per our requirements.
 
